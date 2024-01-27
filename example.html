@@ -1,0 +1,45 @@
+<!-- examples/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title> Form Validation Library Example</title>
+
+    <link rel="stylesheet" href="example.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+  <h1>Mohawk College Form Validation Library Example</h1>
+
+  <form id="myForm">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <div id="passwordRequirements" style = "display: none;"><p>Password Requirements:</p>
+      <ol>
+        <li>Length: Password must be at least 8 characters long.</li>
+        <li>Special Character: Password must contain at least one special character. Special characters include: ! @ # $ % ^ & * ( ) , . ? " : { } | &lt; &gt;</li>
+        <li>First Name Restriction: Password must not contain the user's first name.</li>
+      </ol></div>
+
+    <label for="myTextArea">Text Area:</label>
+    <textarea id="myTextArea" name="myTextArea" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+ 
+<!--
+  <script>
+
+  </script>
+-->
+</body>
+</html>

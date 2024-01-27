@@ -1,0 +1,21 @@
+{
+  "name": "college-form-validator",
+  "version": "1.0.5",
+  "description": "Ensure secure and effective form submission with this comprehensive form validation library. Simplifying the validation process for common fields like passwords, emails and text areas.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "college",
+    "validator",
+    "validate",
+    "form",
+    "security"
+  ],
+  "author": "Nisarg Nayak",
+  "license": "ISC"
+}
