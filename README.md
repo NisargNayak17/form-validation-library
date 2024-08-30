@@ -16,6 +16,7 @@ You can install this package using npm:
 ## Usage
 
 1. How to use
+   
 First include the library in your HTML file
   ```html
   <!-- Yout HTML File -->
@@ -32,7 +33,7 @@ Once the installation is complete, navigate to the installed package directory:
 - Open the `example.html` file in a web browser to see the basic form as an example.  
 
 3. Customize for your needs:
-Modify the example files and add or remove fields according to your own requirements. And, call your custom JavaScript file to handle form submissions and any additional functionality.
+Modify the example files(add or remove fields) according to your own requirements. And, call your custom JavaScript file to handle form submissions and any additional functionality.
 
 4. Implement in your project
 Create your custom JavaScript file (e.g., mycustom.js) where you will handle the form submission and interact with the validation library (installed package).
