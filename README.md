@@ -29,13 +29,20 @@ Once the installation is complete, navigate to the installed package directory:
 - You will find the following files 
   - `example.css`: Example CSS styles for the form 
   - `example.html`: Example HTML form with the applied styles and form validation
-- Open the `example.html` file in a web browser to see the example form and how the validation library is integrated  
+- Open the `example.html` file in a web browser to see the basic form as an example.  
 
 3. Customize for your needs:
-Modify the example files according to your form requirements. Integrate the library by including the JavaScript file in your HTML.
+Modify the example files and add or remove fields according to your own requirements. And, call your custom JavaScript file to handle form submissions and any additional functionality.
 
 4. Implement in your project
-Copy the customized files into your project directory and integrate them into your web application.
+Create your custom JavaScript file (e.g., mycustom.js) where you will handle the form submission and interact with the validation library (installed package).
+In your HTML file, include both the library and your custom JavaScript file:
+
+<!-- Include the package from node_modules -->
+<script src="node_modules/college-form-validator/index.js"></script>
+
+<!-- Include your custom script -->
+<script src="index.js"></script>
 
 ## License
 This project is licensed under the [ISC License](LICENSE)
